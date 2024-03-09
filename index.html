@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio | Sanya Gubrani Data Analyst">
+    <meta name="robots" content="index,follow">
+
+    <title>Sanya Gubrani | Data Analyst</title>
+
+    <!-- Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- sty;esheet links -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/icon-name-s.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">About me</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Skills</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Blogs</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Projects</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contact</a>
+
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/image-home.png" alt="woman art">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hi! I Am</p>
+                    <p class="home_text-2">Sanya Gubrani</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">I am a Data Analyst...</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">I love working with data! Tidying up and organizing messy datasets, discovering hidden trends, and creating informative visuals are all part of the exciting process. Seeing data transform into valuable information is what makes it truly rewarding for me.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1vqNvTy7TjiHEr33-bIs6hAqqS5iU5ccJ/view" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Download CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contact</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/sanya-g-504b90299/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/SanyaGubrani" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://medium.com/@gubrani.sanya2" target="_blank">
+                    <img src="./assets/images/medium.png" alt="Medium" class="icon-CodePen">
+                </a>
+             
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">About Me</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Sanya Gubrani</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+                        As an Economics Undergraduate with Major in Statistics, I have developed a strong understanding of quantitative methods and their applications. Self-taught in Data Analysis, Exploration & Visualization, I am excited to apply these skills towards entering the field of Data Analysis. <br><br><br>Additionally, I hold an interest in Machine Learning, seeking to expand upon my knowledge base and enhance my professional capabilities. By staying up to date with the latest advancements in technology, I aim to continuously develop my skills and grow professionally.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/image-sobreMi.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Skills</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-python.png" alt="Python">
+                   <!--  <p>Python</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-R.png" alt="R">
+                   <!--  <p>R</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-pbi.png" alt="PowerBI">
+                    <!-- <p>Power BI</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-tableau.png" alt="Tableau">
+                   <!--  <p>Tableau</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <!-- <p>HTML 5</p> -->
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                   <!--  <p>CSS 3</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <!-- <p>JavaScript</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-sql.png" alt="sql">
+                    <!-- <p>SQL</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-aws.png" alt="Git">
+                    <!-- <p>Git</p> -->
+                </div>
+
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-az.png" alt="Git">
+                    <!-- <p>Git</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-gcp.png" alt="Git">
+                  <!--   <p>Git</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-np.svg" alt="Git">
+                   <!--  <p>Git</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-pd.ico" alt="Git">
+                   <!--  <p>Git</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-mat.png" alt="Git">
+                   <!--  <p>Git</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-seaborn.png" alt="Git">
+                   <!--  <p>Git</p> -->
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-sklearn.png" alt="Git">
+                   <!--  <p>Git</p> -->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Blogs -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Blogs</h1>
+
+            <div class="cards_container--formacion">
+
+                <a href="https://medium.com/@gubrani.sanya2/evaluating-multi-class-classification-model-using-confusion-matrix-in-python-4d9344084dfa">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/cm2.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Evaluating Multi-Class Classification Model using Confusion Matrix in Python</p>
+                       <!--  <p data-section="formacion" data-value="tiempo-formacion1">2019 - En curso</p> -->
+                    </div>
+                </div>
+                </a>
+
+                <a href="https://medium.com/@gubrani.sanya2/understanding-confusion-matrix-with-python-76bf1d074408">
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/cm1.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Understanding Confusion Matrix with Python</p>
+                       <!--  <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2023</p> -->
+                    </div>
+                </div>
+                </a>
+
+                <a href="https://medium.com/@gubrani.sanya2/linear-regression-with-python-ffe0403a4683">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/linear-reg.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Exploring Linear Regression with Python</p>
+                       <!--  <p>2017 - 2018</p> -->
+                    </div>
+                </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="proyectos" id="proyectos">
+                <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Projects</h1>
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+
+
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/projo 2.png" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">London Bike Rides</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">This project examines bike rental trends using Python and Tableau, considering factors like weather, seasons, and holidays.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://public.tableau.com/app/profile/sanya.gubrani/viz/workbook_17096442348140/Dashboard1?publish=yes" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/SanyaGubrani/London-Bike-Rides" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/projo 1.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">HR Attrition Analysis</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">This Power BI project aims to analyze employee turnover patterns and identify contributing factors through data analysis and visualization.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/SanyaGubrani/HR-Attrition-Analysis-Dashboard/blob/main/Final%20Dashboard.png" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/SanyaGubrani/HR-Attrition-Analysis-Dashboard/tree/main" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/projo 3.png" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Data Survey Analysis</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">This project involves cleaning, transforming, and visualizing survey data to reveal trends in data profession roles, salaries, and career preferences.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/SanyaGubrani/Data-Professional-Survey-Dashboard/blob/main/Dashboard%20theme%202.png" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/SanyaGubrani/Data-Professional-Survey-Dashboard/tree/main" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+            <a href="https://github.com/SanyaGubrani/Portfolio" target="_blank" class="port">
+                <h2>More Projects 🡵</h2>
+            </a>   
+        </section>
+
+        <!-- Contact -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contact</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Complete the following form, and I will get in touch with you as soon as possible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/sanya-g-504b90299/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/SanyaGubrani" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://medium.com/@gubrani.sanya2" target="_blank">
+                    <img src="./assets/images/medium.png" alt="CodePen" class="icon_codepen--footer">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | </span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>2024</span>
+                <span>Sanya Gubrani</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archive Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- animations -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+</html>
